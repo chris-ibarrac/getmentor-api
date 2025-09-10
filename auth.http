@@ -1,0 +1,11 @@
+POST http://getmentor.local:1337/api/auth/local
+Content-Type: application/json
+
+{
+  "identifier": "getmentor@outlook.com",
+  "password": "000000"
+}
+
+### 
+GET /api/courses
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3NTMzNDg2LCJleHAiOjE3NjAxMjU0ODZ9.aFdDs78nfF4WBxnmKUUOTO8omqooD_smZSofCVapiI0
